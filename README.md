@@ -1,2 +1,2 @@
 # UserStoryGen
-UserStoryGen is a simple web app that generates Agile user stories from short task descriptions. It uses Streamlit for the frontend, FastAPI for the backend, and a Language Model (LLM) to automatically create structured user stories.
+UserStoryGen is a tool designed to streamline the creation of user stories from short task descriptions. It provides an intuitive Streamlit-based web interface where users can quickly input task ideas. These inputs are sent to a FastAPI backend that leverages a Language Model (LLM) to automatically generate complete, structured user stories in the format typically used in Agile development ("As a [persona], I want [action], so that [benefit]").
